@@ -62,3 +62,28 @@ let Djokovic = {
 }
 
 console.log(Djokovic)
+
+//ACCESO A ARRAYS
+const empleados = ["Jose Perez","Maria Sanchez","Juan Martinez","Juan Carlos"];
+
+console.log(empleados);
+
+const juan = empleados[2];
+
+console.log(juan);
+
+//ACCESO ARRAYS ANIDADOS
+
+const empleadosGenero = [["Maria","Pepe"],["Jose","Juan"]];
+
+console.log(empleadosGenero[1][0]);
+console.log(empleadosGenero[0][1]);
+
+let cliente = {
+    nombre: "Ivan",
+    direccion: "C/ejemplo",
+    ciudad: "Market",
+    factura: 2300,
+    facturasPendientes: true
+}
+console.log(cliente.facturasPendientes);
