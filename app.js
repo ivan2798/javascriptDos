@@ -84,6 +84,12 @@ let cliente = {
     direccion: "C/ejemplo",
     ciudad: "Market",
     factura: 2300,
-    facturasPendientes: true
+    facturasPendientes: true,
+    transportistas:["Maria","Pepe","Jose","Juan"]
 }
-console.log(cliente.facturasPendientes);
+console.log(cliente.transportistas[3]);
+
+
+//cuarto premio de Djkovic
+
+console.log(Djokovic.estaTemporadaResults.wins[3]);
